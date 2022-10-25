@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include <openssl/rand.h>
 
-/**
- * Pseudo-Random Number Generator (PRNG)
- */
 int main(int argc, char const *argv[])
 {
     unsigned char key[EVP_MAX_KEY_LENGTH];
